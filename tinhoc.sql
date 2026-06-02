@@ -1839,17 +1839,7 @@ CREATE TABLE `users` (
   `created_at` timestamp NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Đang đổ dữ liệu cho bảng `users`
---
 
-INSERT INTO `users` (`id`, `username`, `password`, `fullname`, `role`, `created_at`) VALUES
-(1, 'admin', '$2y$10$gAXbtHoyBYxgYv8zouAkOO2EaJeiyVD2dOXY9LxhIteZBySlAY/iG', 'Qu?n Tr? Viên', 'admin', '2026-04-17 00:34:09'),
-(2, 'binhsubvip', '$2y$10$.gfNGvy6rw0sGRn5aO7y3OExmbaxzr91/0DA5XCoj3cXF8BuGKXQe', 'Thanh Bình', 'user', '2026-04-17 02:42:56'),
-(3, 'Binhsupvipcc', '$2y$10$S7axIHyVOdm8n/vk7xQ2t.R/1760/l/yldlpMppCVpxjrkajm26e2', 'Thanh bình', 'user', '2026-04-20 02:36:03'),
-(4, 'binhsubvip111', '$2y$10$sQstWFLP/jJ5eJshuBsYL.2KF7V6xJjHH/csKaEhPu6IskUd1snCe', 'demo', 'user', '2026-05-14 03:38:10');
-
---
 -- Chỉ mục cho các bảng đã đổ
 --
 
